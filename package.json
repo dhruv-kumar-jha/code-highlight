@@ -1,0 +1,35 @@
+{
+  "name": "code-highlight",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "watch": "cross-env NODE_ENV=development webpack -w",
+    "build:dev": "cross-env NODE_ENV=development webpack",
+    "build:production": "cross-env NODE_ENV=production webpack -p"
+  },
+  "keywords": [
+    "Code Highlighter",
+    "Syntax Highlighter",
+    "Highlight",
+    "highlight.js"
+  ],
+  "repository": "https://github.com/dhruv-kumar-jha/code-highlight.git",
+  "author": "Dhruv Kumar Jha <dhruv@dhruvkumarjha.com>",
+  "license": "MIT",
+  "peerDependency": {
+    "highlight.js": "^9.11.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^4.0.0",
+    "highlight.js": "^9.11.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.4.1"
+  }
+}

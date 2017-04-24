@@ -1,0 +1,44 @@
+/**
+ * Code Highlight
+ * stylesheet
+ */
+
+.code-highlight {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace !important;
+	overflow: auto;
+}
+
+.code-highlight .title {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace !important;
+	color: #000;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.code-highlight .description {
+	font-family: Arial, Tahoma, ​sans-serif;
+	color: #999;
+	font-size: 15px;
+	line-height: 18px;
+	margin-top: 5px;
+}
+
+.code-highlight pre {
+	padding: 10px;
+	overflow: auto;
+	word-break: normal;
+	word-wrap: normal;
+	margin: 20px 0 !important;
+	white-space: pre-wrap;
+	border: 1px solid rgba(0,0,0,0.1);
+	background: transparent;
+	border-radius: 3px;
+}
+
+.code-highlight pre code {
+	white-space: pre;
+	font-size: 16px;
+	line-height: 18px;
+}
+
