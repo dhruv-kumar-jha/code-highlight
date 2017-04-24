@@ -14,7 +14,7 @@ To install this Component, run `yarn add code-highlight` or `npm install code-hi
 
 To use the component, In your react Application just do
 
-```
+```javascript
 import React from 'react';
 import CodeHighlight from 'code-highlight';
 
@@ -41,12 +41,11 @@ const MyComponent = (props) => {
 
 export default MyComponent;
 
-
 ```
 
 You can also provide additional configuration like
 
-```
+```javascript
 <CodeHighlight
 	language="" // default: javascript
 	title="" // if any
